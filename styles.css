@@ -190,7 +190,8 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 280px;
+	/* margin-top: 280px; */
+	margin-top: 380px;
 }
 
 .card {
@@ -202,7 +203,8 @@ h1.name {
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 10px
+  /* changed this, above */
 }
 
 .card-active , .card:hover{
@@ -210,7 +212,7 @@ h1.name {
 	transition: 0.5s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 
@@ -227,12 +229,15 @@ h1.name {
 }
 
 .skill-level h2 {
-	font-size: 95px;
+	/* font-size: 95px; */
+	font-size: 35px;
 	font-weight: 300;
 	display: inline-block;
-	vertical-align: top;
+	/* vertical-align: top; */
+	vertical-align: baseline;
 	color: #5B6A9A;
-	letter-spacing: -5px;
+  padding-top: 50px;
+	/* letter-spacing: -5px; */
 }
 
 .skill-meta {
@@ -375,6 +380,7 @@ li .description {
 	}
 	.cards {
 		margin-top: 250px;
+		/* margin-top: 350px; */
 	}
 }
 
