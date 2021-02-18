@@ -176,6 +176,10 @@ h1.name {
 	margin-bottom: 8px;
 }
 
+#link-color {
+  color: #5B6A9A;
+}
+
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
